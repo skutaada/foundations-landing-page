@@ -12,22 +12,27 @@
 .header {
   display: flex;
   gap: 8px;
-  padding-top: 28px;
+  padding-top: 16px;
+  align-items: baseline;
 }
 
 .header a {
   color: #e5e7eb;
+  text-decoration: none;
 }
 
 .header .logo {
   margin-right: auto;
   color: #f9faf8;
+  font-size: 24px;
+  font-weight: 900;
 }
 
 .hero {
   display: flex;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  align-items: stretch;
 }
 
 .hero .hero-text {
@@ -48,16 +53,16 @@
 .hero-text .hero-button {
   background-color: #3882f6;
   padding: 6px 25px;
-  margin-top: 6px;
-  border-radius: 10px;
+  margin-top: 12px;
+  border-radius: 6px;
+  border: none;
+  color: #f9faf8;
 }
 
 .hero .img-area {
   background-color: grey;
-  width: 500px;
-  height: 200px;
   display: flex;
-  flex-shrink: 0;
+  flex: 1 0 50%;
   justify-content: center;
   align-items: center;
 }
