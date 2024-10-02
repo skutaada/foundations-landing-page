@@ -9,6 +9,11 @@
   padding-right: 25%;
 }
 
+.alt-padding {
+  padding-left: 35%;
+  padding-right: 35%;
+}
+
 .header {
   display: flex;
   gap: 8px;
@@ -65,6 +70,10 @@
   flex: 1 0 50%;
   justify-content: center;
   align-items: center;
+}
+
+.info {
+  padding-top: 36px;
 }
 
 .bg-blue {
