@@ -113,8 +113,8 @@
 .quote {
   padding-top: 72px;
   padding-bottom: 72px;
-  padding-left: 550px;
-  padding-right: 550px;
+  padding-left: 25%;
+  padding-right: 25%;
   background-color: #e5e7eb;
 }
 
@@ -131,6 +131,43 @@
   text-align: end;
   margin-top: 12px;
   padding-right: 24px;
+}
+
+.action {
+  display: flex;
+  background-color: #3882f6;
+  width: fit-content;
+  height: fit-content;
+  margin: 72px auto;
+  padding: 30px 90px;
+  border-radius: 6px;
+}
+
+.action .text-area {
+  margin-right: 240px;
+}
+
+.action .main-text {
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.action .sub-text {
+  color: #f9faf8;
+  font-size: 14px;
+  font-weight: lighter;
+  margin-top: 6px;
+}
+
+.action button {
+  border: 1px solid #f9faf8;
+  border-radius: 6px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 6px 25px;
+  align-self: center;
+  
 }
 
 .bg-blue {
