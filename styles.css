@@ -167,7 +167,14 @@
   color: #f9faf8;
   padding: 6px 25px;
   align-self: center;
-  
+}
+
+.copyright {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  text-align: center;
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 .bg-blue {
